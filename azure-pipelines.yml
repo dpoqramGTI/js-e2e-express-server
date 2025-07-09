@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: Default  # Este es el pool donde está tu agente autoservicio
 
 steps:
 - task: NodeTool@0
